@@ -1,0 +1,42 @@
+.header {
+  height: 3rem;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  border-bottom: 1px solid grey;
+}
+
+.link_con {
+  list-style: none;
+  text-transform: uppercase;
+  display: flex;
+}
+
+/*
+WORK ON THE LAST CHILD ELEMENTS FOR THE LINKS
+*/
+
+.link_item {
+  color: #fff;
+  margin-right: 2rem;
+  text-decoration: none;
+
+  &:not(:last-child) {
+    color: red;
+  }
+}
+
+.header__logo_btn {
+  border: none;
+  background-color: transparent;
+}
+
+.header__logo_svg {
+  fill: #fff;
+  width: 2.3rem;
+  height: 2rem;
+}

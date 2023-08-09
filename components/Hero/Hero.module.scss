@@ -1,0 +1,40 @@
+.hero {
+  background-color: var(--color-black-primary);
+  //   height: 70vh;
+}
+
+.new_product {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 35% 65%;
+
+  justify-items: end;
+  align-items: center;
+
+  &__desc {
+    h4 {
+      text-transform: uppercase;
+      letter-spacing: 1rem;
+      font-weight: 400;
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      text-transform: uppercase;
+      font-weight: 700;
+      font-size: 5rem;
+      line-height: 1;
+      margin-bottom: 1rem;
+    }
+
+    p {
+      font-weight: 500;
+      width: 32rem;
+      font-size: 1.5rem;
+      line-height: 2.5;
+      margin-bottom: 2rem;
+    }
+  }
+}
