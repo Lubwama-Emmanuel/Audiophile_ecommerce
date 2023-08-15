@@ -13,8 +13,14 @@ html {
 }
 
 body {
-  margin: 1rem 1rem;
+  // margin: 1rem 1rem;
   font-size: 1.6rem;
   color: #fff;
   line-height: 1.7;
+}
+
+@media (max-width: 950px) {
+  html {
+    font-size: 56%;
+  }
 }
