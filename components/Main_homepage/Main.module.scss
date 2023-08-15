@@ -1,8 +1,19 @@
 .second {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
 
-  width: 80%;
+  min-width: 80%;
   margin: 10rem auto;
-  justify-content: end;
+  justify-content: center;
+
+  @media (max-width: 600px) {
+    & {
+      grid-template-rows: repeat(3, 1fr);
+      grid-template-columns: auto;
+    }
+
+    & > * {
+      margin-bottom: 60px;
+    }
+  }
 }

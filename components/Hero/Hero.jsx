@@ -25,7 +25,8 @@ function NewProduct() {
         <Button>{"see product"}</Button>
       </div>
       <div className={styles.new_product__image}>
-        <Image src="/images/headphones.png" width={500} height={500} />
+        &nbsp;
+        {/* <Image src="/images/headphones.png" width={500} height={500} /> */}
       </div>
     </div>
   );

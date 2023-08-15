@@ -1,13 +1,31 @@
 .product {
-  //   background-color: red;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   text-transform: uppercase;
 
+  position: relative;
+
+  margin-top: 4rem;
+
   &__img {
-    margin-bottom: 2rem;
+    position: absolute;
+    bottom: 60%;
+    height: 16rem;
+    width: 13rem;
+  }
+
+  &__info {
+    background-color: #f1f1f1;
+    height: 15rem;
+    width: 32rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+
+    padding-bottom: 2.5rem;
   }
 
   h4 {

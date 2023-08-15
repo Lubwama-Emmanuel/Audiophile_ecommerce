@@ -11,8 +11,10 @@ export default function S({ img, title }) {
         width={130}
         className={styles.product__img}
       />
-      <h4>{title}</h4>
-      <Shop />
+      <div className={styles.product__info}>
+        <h4>{title}</h4>
+        <Shop />
+      </div>
     </div>
   );
 }

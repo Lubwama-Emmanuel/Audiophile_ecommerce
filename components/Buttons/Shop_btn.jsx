@@ -1,11 +1,11 @@
-import styles from "./Button.module.scss";
+import styles from "./Shop_btn.module.scss";
 
 export default function Shop() {
   return (
     <button className={styles.shop_btn}>
       Shop
-      <span className={styles.shop_btn__arrow}>
-        <svg>
+      <span>
+        <svg className={styles.shop_btn__arrow}>
           <use xlinkHref="images/sprite.svg#icon-chevron-small-right"></use>
         </svg>
       </span>
