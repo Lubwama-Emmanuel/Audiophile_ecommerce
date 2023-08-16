@@ -22,7 +22,7 @@ function NewProduct() {
           Experience natural, lifelike audio and exceptional build quality made
           for the passionate music enthusiast.
         </p>
-        <Button>{"see product"}</Button>
+        <Button bgColor={"#d87d4a"}>{"see product"}</Button>
       </div>
       <div className={styles.new_product__image}>
         &nbsp;

@@ -1,0 +1,40 @@
+.yx1 {
+  max-width: 85%;
+  height: 320px;
+  //   background: red;
+  margin: 35px auto;
+
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  align-items: center;
+
+  &__image {
+    background: url("../../public/images/yx1.png"),
+      lightgray 0px 0px / 100% 100% no-repeat;
+    background-size: cover;
+    height: 100%;
+    border-radius: 8px;
+  }
+
+  &__info {
+    background: #f1f1f1;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 8px;
+
+    h2 {
+      color: #000;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      margin-bottom: 30px;
+    }
+  }
+}

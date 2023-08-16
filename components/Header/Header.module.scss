@@ -4,7 +4,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
   padding: 4rem 0;
   border-bottom: 1px solid grey;
@@ -25,9 +25,15 @@ WORK ON THE LAST CHILD ELEMENTS FOR THE LINKS
   margin-right: 2rem;
   text-decoration: none;
 
-  &:not(:last-child) {
-    color: red;
+  li {
+    &:not(:last-child) {
+      color: red !important;
+    }
   }
+}
+
+.last_item {
+  color: red !important;
 }
 
 .header__logo_btn {

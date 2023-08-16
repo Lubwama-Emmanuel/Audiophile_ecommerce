@@ -6,18 +6,22 @@ const data = [
   {
     id: 0,
     name: "home",
+    ref: "/",
   },
   {
     id: 0,
     name: "headphones",
+    ref: "/headphones",
   },
   {
     id: 0,
     name: "speakers",
+    ref: "/speakers",
   },
   {
     id: 0,
     name: "earphones",
+    ref: "/earphones",
   },
 ];
 
@@ -38,14 +42,22 @@ export default function Header() {
 function Page({ item }) {
   return (
     <li>
-      <Link href="/" className={styles.link_item}>
+      <Link
+        href={item.ref}
+        className={
+          // isLast
+          //   ? `${styles.last_item}`
+          //   : `${styles.link_item}`
+          (styles.last_item, styles.link_item)
+        }
+      >
         {item.name}
       </Link>
     </li>
   );
 }
 
-function Pages() {
+export function Pages() {
   return (
     <ul className={styles.link_con}>
       {data.map((el) => (
