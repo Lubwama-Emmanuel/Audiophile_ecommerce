@@ -6,6 +6,7 @@ import Zx7 from "../components/Zx7/Zx7";
 import Yx1 from "../components/Yx1/Yx1";
 import Gear from "../components/Gear/Gear";
 import Footer from "../components/Footer/Footer";
+import Layout from "../components/Layout/Layout";
 
 export default function Homepage() {
   return (
@@ -14,11 +15,13 @@ export default function Homepage() {
         <title>Audiophile Ecommerce</title>
       </Head>
       <Hero />
-      <Main />
-      <Zx9 />
-      <Zx7 />
-      <Yx1 />
-      <Gear />
+      <Layout>
+        <Main />
+        <Zx9 />
+        <Zx7 />
+        <Yx1 />
+        <Gear />
+      </Layout>
       <Footer />
     </>
   );
