@@ -1,11 +1,11 @@
-import Layout from "../components/Layout/Layout";
-import MarkI from "../components/MarkI/MarkI";
-import MarkII from "../components/MarkII/MarkII";
-import PageHead from "../components/Page_Head/Page_Head";
-import Xx59 from "../components/XX59/Xx59";
-import Main from "../components/Main_homepage/Main";
-import Gear from "../components/Gear/Gear";
-import Footer from "../components/Footer/Footer";
+import Layout from "../components/ui/Layout/Layout";
+import PageHead from "../components/ui/Page_Head/Page_Head";
+import MarkII from "../components/Headphones/MarkII/MarkII";
+import MarkI from "../components/Headphones/MarkI/MarkI";
+import Xx59 from "../components/Headphones/XX59/Xx59";
+import Overview from "../components/ui/Overview/overview";
+import Gear from "../components/ui/Gear/Gear";
+import Footer from "../components/ui/Footer/Footer";
 
 export default function Headphone() {
   return (
@@ -15,7 +15,7 @@ export default function Headphone() {
         <MarkII />
         <MarkI />
         <Xx59 />
-        <Main />
+        <Overview />
         <Gear />
       </Layout>
       <Footer />

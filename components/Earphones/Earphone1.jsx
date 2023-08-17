@@ -1,14 +1,15 @@
-import HeadingSec from "../ui/Heading/Heading";
+import HeadingSec from "../ui/Headings/HeadingSec";
 import styles from "./Earphone.module.scss";
-import Button from "../Buttons/Button";
+import Button from "../ui/Buttons/Button";
 import Paragraph from "../ui/Paragraph/Paragraph";
 import DoubleCon from "../ui/Container/DoubleCon";
+import HeadingNew from "../ui/Headings/HeadingNew";
 
 export default function Earphone() {
   return (
     <DoubleCon img={"big_earphone"}>
       <div className={styles.earphone__info}>
-        <h4>new product</h4>
+        <HeadingNew />
         <HeadingSec>{"YX1 WIRELESS EARPHONES"}</HeadingSec>
         <Paragraph>
           {

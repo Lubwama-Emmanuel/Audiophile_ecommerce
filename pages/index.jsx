@@ -1,12 +1,13 @@
 import Head from "next/head";
-import Hero from "../components/Hero/Hero";
-import Main from "../components/Main_homepage/Main";
-import Zx9 from "../components/Zx9/Zx9";
-import Zx7 from "../components/Zx7/Zx7";
-import Yx1 from "../components/Yx1/Yx1";
-import Gear from "../components/Gear/Gear";
-import Footer from "../components/Footer/Footer";
-import Layout from "../components/Layout/Layout";
+
+import Hero from "../components/Homepage/Hero/Hero";
+import Layout from "../components/ui/Layout/Layout";
+import Overview from "../components/ui/Overview/overview";
+import Zx9 from "../components/Homepage/Zx9/Zx9";
+import Zx7 from "../components/Homepage/Zx7/Zx7";
+import Yx1 from "../components/Homepage/Yx1/Yx1";
+import Gear from "../components/ui/Gear/Gear";
+import Footer from "../components/ui/Footer/Footer";
 
 export default function Homepage() {
   return (
@@ -16,7 +17,7 @@ export default function Homepage() {
       </Head>
       <Hero />
       <Layout>
-        <Main />
+        <Overview />
         <Zx9 />
         <Zx7 />
         <Yx1 />
