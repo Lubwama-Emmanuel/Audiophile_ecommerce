@@ -1,0 +1,17 @@
+.shop_btn {
+  font-size: 1.3rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  background: transparent;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  border: none;
+}
+
+.shop_btn__arrow {
+  fill: #d87d4a;
+
+  width: 2rem;
+  height: 2rem;
+}
