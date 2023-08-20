@@ -1,0 +1,43 @@
+.features {
+  color: #000;
+
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 10%;
+
+  p {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px; /* 166.667% */
+    opacity: 0.5;
+  }
+
+  ul {
+    list-style: none;
+  }
+}
+
+.list_value {
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 25px; /* 166.667% */
+
+  opacity: 0.5;
+}
+
+.span_value {
+  display: inline-block;
+  color: #d87d4a;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 166.667% */
+
+  opacity: 1;
+}
+
+// .list_value > .span_value {
+//   opacity: 1;
+// }
