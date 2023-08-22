@@ -14,7 +14,6 @@ export default function Earphones() {
         <Main />
         <Gear />
       </Layout>
-      <Footer />
     </>
   );
 }

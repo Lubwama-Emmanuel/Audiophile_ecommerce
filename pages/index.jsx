@@ -7,7 +7,6 @@ import Zx9 from "../components/Homepage/Zx9/Zx9";
 import Zx7 from "../components/Homepage/Zx7/Zx7";
 import Yx1 from "../components/Homepage/Yx1/Yx1";
 import Gear from "../components/ui/Gear/Gear";
-import Footer from "../components/ui/Footer/Footer";
 
 export default function Homepage() {
   return (
@@ -23,7 +22,6 @@ export default function Homepage() {
         <Yx1 />
         <Gear />
       </Layout>
-      <Footer />
     </>
   );
 }

@@ -5,7 +5,6 @@ import MarkI from "../components/Headphones/MarkI/MarkI";
 import Xx59 from "../components/Headphones/XX59/Xx59";
 import Overview from "../components/ui/Overview/overview";
 import Gear from "../components/ui/Gear/Gear";
-import Footer from "../components/ui/Footer/Footer";
 
 export default function Headphone() {
   return (
@@ -18,7 +17,6 @@ export default function Headphone() {
         <Overview />
         <Gear />
       </Layout>
-      <Footer />
     </>
   );
 }
