@@ -3,6 +3,8 @@ import Link from "next/link";
 
 import styles from "./Header.module.scss";
 
+// list of pages
+
 const data = [
   {
     id: 0,
