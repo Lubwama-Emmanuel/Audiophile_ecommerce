@@ -43,6 +43,7 @@ export default function Header() {
   );
 }
 
+// Page component
 function Page({ item }) {
   return (
     <li>
